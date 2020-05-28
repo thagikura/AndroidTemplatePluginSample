@@ -1,0 +1,18 @@
+<idea-plugin>
+    <name>Android template implementation sample</name>
+
+    <id>com.android.tools.idea.wizard.template.sample.impl2</id>
+
+    <description>Contains Android Template plugin APIs, for which actual template files use</description>
+
+    <version>1.0.0</version>
+
+    <vendor url="https://developer.android.com/" email="support@company.com">Sample template provider Inc.</vendor>
+
+    <depends>com.intellij.modules.java</depends>
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.android.tools.idea.wizard.template">
+        <wizardTemplateProvider implementation="activities.SamplePluginTemplateProviderImpl" />
+    </extensions>
+</idea-plugin>
